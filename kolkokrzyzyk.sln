@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kolkokrzyzyk", "kolkokrzyzy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad2.3", "zad2.3\zad2.3.csproj", "{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad 2.4", "zad 2.4\zad 2.4.csproj", "{B0D140AB-6678-4E56-8717-9017A93D7852}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D140AB-6678-4E56-8717-9017A93D7852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D140AB-6678-4E56-8717-9017A93D7852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D140AB-6678-4E56-8717-9017A93D7852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D140AB-6678-4E56-8717-9017A93D7852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
