@@ -22,14 +22,19 @@ namespace zad_2._4
                 text = Console.ReadLine();
                 Int32.TryParse(text, out b);
 
-                //Sprobuj wukonac dzielenie i obsluz wyjatek przy dzieleniu przez zero
+                //Sprobuj wy konac dzielenie i obsluz wyjatek przy dzieleniu przez zero
                 Console.WriteLine("Wynik dzielenia {0}", a / b);
             }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Nie wolno dzielic przez zero!");
             }
-            Console.ReadKey();
+            finally
+            {
+                Console.WriteLine("Dziekuje");
+
+                Console.ReadKey();
+            }
         }
     }
 }
