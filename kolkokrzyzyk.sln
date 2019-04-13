@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kolkokrzyzyk", "kolkokrzyzyk\kolkokrzyzyk.csproj", "{2D3E3162-5781-433B-B736-5FDE48EA8726}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad2.3", "zad2.3\zad2.3.csproj", "{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2D3E3162-5781-433B-B736-5FDE48EA8726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D3E3162-5781-433B-B736-5FDE48EA8726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D3E3162-5781-433B-B736-5FDE48EA8726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01CEAD6-8E57-4E1D-8F15-A705CD92EEAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
