@@ -8,8 +8,8 @@ namespace kolkokrzyzyk
         {
             string imieGraczaA = "";
             string imieGraczaB = "";
-            char znakGraczaA = "x";
-            char znakGraczaB = "o";
+            char znakGraczaA = 'x';
+            char znakGraczaB = 'o';
             char[,] plansza = new char[3, 3]
             {
                 {'1','2','3' },
@@ -19,8 +19,31 @@ namespace kolkokrzyzyk
 
             Console.Write("Wpisz imie gracza A: ");
             imieGraczaA = Console.ReadLine();
-            Console.Write("Wpisz inie gracza B: ");
+            Console.Write("Wpisz imie gracza B: ");
             imieGraczaB = Console.ReadLine();
+
+            //petla na kolejne ruchy graczy
+            bool koniecGry = false;
+            while (!koniecGry)
+            {
+                Console.Clear();
+                RysujPlansze(plansza);
+
+                Console.ReadKey();
+            }
+        }
+
+        static void RysujPlansze(char[,] plansza)
+        {
+            int wysokosc = plansza.GetLength(0);
+            int szerokosc = plansza.GetLength(1);
+
+            for (int i = 0; i < wysokosc; ++i)
+            {
+                for (int j = 0; j < szerokosc; ++j)
+                    Console.Write(plansza[i, j]);
+                Console.WriteLine();
+            }
         }
 
     }
